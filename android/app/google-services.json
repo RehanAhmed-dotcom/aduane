@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "82039019122",
+    "project_id": "aduane-c9188",
+    "storage_bucket": "aduane-c9188.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82039019122:android:66f27ba813eb54e03a14eb",
+        "android_client_info": {
+          "package_name": "com.aduane"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82039019122-avj7cfipf6uk4di05meolv1u5ak60psb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4gdFCP5436f1JMw4m6Uh0Rxe1KNhvxYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82039019122-avj7cfipf6uk4di05meolv1u5ak60psb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "82039019122-6nkhj8460adv37q0onnu43sej45o3i2f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.aduane"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

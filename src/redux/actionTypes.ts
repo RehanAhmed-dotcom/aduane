@@ -1,0 +1,35 @@
+export const USER_LOGGED_IN = 'USER_LOGGED_IN';
+export const USER_LOGGED_OUT = 'USER_LOGGED_OUT';
+export const USER_FCM_TOKEN = 'USER_FCM_TOKEN';
+
+export const RESET_PASS_EMAIL = 'RESET_PASS_EMAIL';
+export const CODE_VALUE = 'CODE_VALUE';
+export const PRODUCT = 'PRODUCT';
+export const PLACE_ORDER = 'PLACE_ORDER';
+export const IS_BUSINESS = 'IS_BUSINESS';
+
+export const IS_FILTERED = 'IS_FILTERED';
+export const REMOVE_FILTER = 'REMOVE_FILTER';
+export const DELIVERY_ADDRESS = 'DELIVERY_ADDRESS';
+export const DELIVERY_TYPE = 'DELIVERY_TYPE';
+export const DELIVERY_TIME = 'DELIVERY_TIME';
+export const DELIVERY_FEE = 'DELIVERY_FEE';
+export const RESTAURANT_LOCATION = 'RESTAURANT_LOCATION';
+
+export const ADD_TO_CART = 'ADD_TO_CART';
+export const REMOVE_FROM_CART = 'REMOVE_FROM_CART';
+export const ADD_QUANTITY = 'ADD_QUANTITY';
+export const SUB_QUANTITY = 'SUB_QUANTITY';
+export const EMPTY_CART = 'EMPTY_CART';
+export const CART_TOTAL = 'CART_TOTAL';
+export const RESTAURANT_DETAILS = 'RESTAURANT_DETAILS';
+export const CART_FROM_NOTIFICATION = 'CART_FROM_NOTIFICATION';
+export const SET_FRIEND_DATA = 'SET_FRIEND_DATA';
+export const REMOVE_SHARED_ORDER = 'REMOVE_SHARED_ORDER';
+export const SAVE_RECOMENDATION = 'SAVE_RECOMENDATION';
+export const TEMP_DATA = 'TEMP_DATA';
+export const REC_DATA = 'REC_DATA';
+export const UPDATE_REC_DATA = 'UPDATE_REC_DATA';
+export const REQUIRED_ITEMS = 'REQUIRED_ITEMS';
+export const IS_FIXED = 'IS_FIXED';
+export const ALL_REC = 'ALL_REC'
