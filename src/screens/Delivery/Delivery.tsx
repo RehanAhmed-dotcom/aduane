@@ -125,9 +125,9 @@ const Delivery = ({ navigation, route }: any) => {
     }
   };
 
-  const _payment = () => {
+  const _payment = (id:string) => {
     const data = new FormData();
-    data.append('order_id', orderId);
+    data.append('order_id', id);
     payForOrder({ data, token }).then((responce) => {
       setOrderSuccessed(false);
       initializePaymentSheet(responce)
@@ -279,9 +279,12 @@ const Delivery = ({ navigation, route }: any) => {
 
         if (res && res.status === 'success') {
 
-          setOrderSuccessed(true);
+          // setOrderSuccessed(true);
+          
           setOrderId(res.order_id);
           setDeliveryAddress(undefined)(dispatch);
+          // setTimeout(() => {}, 1000) 
+          _payment(res.order_id);
 
         }
     }
@@ -322,10 +325,12 @@ const Delivery = ({ navigation, route }: any) => {
 
       if (res && res.status === 'success') {
 
-        setOrderSuccessed(true);
+        // setOrderSuccessed(true);
+       
         setOrderId(res.order_id);
         setDeliveryAddress(undefined)(dispatch);
-
+        _payment(res.order_id)
+        // setTimeout(() => {}, 1000) 
       }
     }
     catch (error) {
@@ -567,7 +572,7 @@ const Delivery = ({ navigation, route }: any) => {
             </View>
             <TouchableOpacity
               onPress={() => {
-                _payment()
+                // _payment()
                 setOrderSuccessed(false);
 
                 // setPayment(true)
